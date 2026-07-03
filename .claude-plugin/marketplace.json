@@ -19,7 +19,7 @@
 		{
 			"name": "context-engineering",
 			"source": "./context-engineering",
-			"description": "Memory and context engineering concepts for LLMs — context window management, RAG patterns, prompt injection attacks (red-team), and defenses. Covers three angles: supporting development, exploiting, and defending.",
+			"description": "Concepts and techniques for memory and context engineering with LLMs — context window management, RAG patterns, red-team/adversarial-testing techniques for educational use, and defenses against prompt injection and jailbreaking.",
 			"version": "1.0.0",
 			"author": {
 				"name": "dotKnewt",
@@ -46,6 +46,16 @@
 			},
 			"repository": "https://github.com/github/awesome-copilot",
 			"license": "MIT"
+		},
+		{
+			"name": "obsidian-vault",
+			"source": "./obsidian-vault",
+			"description": "Search, create, and manage notes in an Obsidian vault with wikilinks and index notes. Requires OBSIDIAN_VAULT_PATH to be set to the vault's absolute path.",
+			"version": "1.0.0",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
 		}
 	]
 }
