@@ -63,7 +63,7 @@ Key tradeoffs:
 - **Provide failing tests or expected output** rather than prose specs; the model can check its own work.
 - **Chain of thought for complex logic**: ask the model to reason before writing code.
 - **Constrain scope explicitly**: "only change X, leave Y unchanged" prevents scope creep.
-- **Self-critique loop**: ask the model to review its output for bugs before returning it.
+- **Self-critique loop**: ask the model to review its own output before returning it — see `skills/agentic-eval` for the full self-critique/evaluator-optimizer pattern and rubric-based grading.
 
 ---
 

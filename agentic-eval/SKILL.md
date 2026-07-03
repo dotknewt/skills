@@ -15,6 +15,8 @@ description: |
 
 Patterns for self-improvement through iterative evaluation and refinement.
 
+See also: `skills/context-engineering` for the retrieval/RAG side of context management, and the broader context-window/memory concepts these evaluation patterns operate within.
+
 ## Overview
 
 Evaluation patterns enable agents to assess and improve their own outputs, moving beyond single-shot generation to iterative refinement loops.
