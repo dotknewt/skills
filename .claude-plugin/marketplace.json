@@ -1,5 +1,6 @@
 {
 	"name": "dotknewt-skills",
+	"description": "Standalone Claude Code skills, each independently installable — split out of dotknewt/agency for granular, mix-and-match installs.",
 	"owner": {
 		"name": "dotKnewt",
 		"email": "dotknewt@keemail.me"
@@ -14,6 +15,37 @@
 				"name": "dotKnewt",
 				"email": "dotknewt@keemail.me"
 			}
+		},
+		{
+			"name": "context-engineering",
+			"source": "./context-engineering",
+			"description": "Memory and context engineering concepts for LLMs — context window management, RAG patterns, prompt injection attacks (red-team), and defenses. Covers three angles: supporting development, exploiting, and defending.",
+			"version": "1.0.0",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "make-a-monorepo",
+			"source": "./make-a-monorepo",
+			"description": "Scaffold a flat monorepo from scratch or audit an existing project against monorepo conventions — /make-a-monorepo init <name> or /make-a-monorepo audit [--fix].",
+			"version": "1.0.0",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "eyeball",
+			"source": "./eyeball",
+			"description": "Document analysis with inline source screenshots. Generates a Word doc where every factual claim includes a highlighted screenshot from the source material for visual verification.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Awesome Copilot Community"
+			},
+			"repository": "https://github.com/github/awesome-copilot",
+			"license": "MIT"
 		}
 	]
 }
